@@ -1399,6 +1399,8 @@
 
 /* Should work with at least 128MB cma reserved above. */
 &hdmirx_ctrler {
+	status = "disabled";
+
 	#sound-dai-cells = <1>;
 	/* Effective level used to trigger HPD: 0-low, 1-high */
 	hpd-trigger-level = <1>;
@@ -1409,8 +1411,6 @@
 
 	pinctrl-names = "default";
 	pinctrl-0 = <&hdmim2_rx_cec &hdmim2_rx_hpdin &hdmim2_rx_scl &hdmim2_rx_sda &hdmirx_det>;
-
-	status = "okay";
 };
 
 &i2s7_8ch {
