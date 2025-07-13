@@ -35,6 +35,11 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	orangepi-5-pro-cam1.dtbo \
 	orangepi-5-pro-cam2.dtbo \
 	orangepi-5-pro-disable-leds.dtbo \
+	orangepi-5-ultra-cam0.dtbo \
+	orangepi-5-ultra-cam1.dtbo \
+	orangepi-5-ultra-cam2.dtbo \
+	orangepi-5-ultra-disable-leds.dtbo \
+	orangepi-5-ultra-lcd.dtbo \
 	rock-3a-sata.dtbo \
 	rock-5a-hdmi-8k.dtbo \
 	rock-5a-i2c5-rtc-hym8563.dtbo \
@@ -134,6 +139,7 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3588-i2c6-m4.dtbo \
 	rk3588-i2c7-m3.dtbo \
 	rk3588-i2c8-m2.dtbo \
+	rk3588-i2c8-m3.dtbo \
 	rk3588-i2c8-m4.dtbo \
 	rk3588-ov13850-c1.dtbo \
 	rk3588-ov13850-c2.dtbo \
@@ -167,6 +173,7 @@ dtbo-$(CONFIG_ARCH_ROCKCHIP) += \
 	rk3588-pwm3-m3.dtbo \
 	rk3588-pwm5-m2.dtbo \
 	rk3588-pwm6-m0.dtbo \
+	rk3588-pwm6-m1.dtbo \
 	rk3588-pwm6-m2.dtbo \
 	rk3588-pwm7-m0.dtbo \
 	rk3588-pwm7-m3.dtbo \
